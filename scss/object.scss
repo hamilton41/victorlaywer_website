@@ -1,0 +1,19 @@
+.main{
+    &-btn{
+        background: linear-gradient(to bottom, $main-color-gradient, $main-color 50%);
+        color: $pure-white;
+        font-weight: 700;
+        padding: 8px 20px;
+        border-radius: 7px;
+        &:hover{
+            color: $pure-white;
+        }
+    }
+    &-tag{
+        color: $pure-white;
+        background: linear-gradient(to right, $second-color, $second-color-gradient 50%);
+        padding: 4px 10px;
+        font-size: $s-small;
+        border-radius: 3px;
+    }
+}

@@ -1,3 +1,39 @@
 @import './color.scss';
 @import './initial.scss';
 @import './variable.scss';
+@import './object.scss';
+@import './header.scss';
+@import './footer.scss';
+
+body{
+    font-family: 'Noto Serif TC', serif;
+}
+
+h1{
+    font-size: $large;
+}
+
+h2{
+    font-size: $l-mid;
+}
+
+h3{
+    font-size: $mid;
+}
+
+h4{
+    font-size: $s-mid;
+}
+
+p{
+    font-size: $small;
+}
+
+a{
+    font-size: $s-mid;
+    text-decoration: none;
+    color: $font-black;
+    &:hover{
+        color: $font-black;
+    }
+}
