@@ -1,0 +1,17 @@
+<svg id="Component_14_4" data-name="Component 14 – 4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dcc9a7"/>
+      <stop offset="1" stop-color="#ceb27f"/>
+    </linearGradient>
+  </defs>
+  <circle id="Ellipse_44" data-name="Ellipse 44" cx="9" cy="9" r="9" transform="translate(3 3)" fill="url(#linear-gradient)"/>
+  <g id="Layer_2_00000052077968596194672690000003389329715325743022_" transform="translate(7.916 9.209)">
+    <g id="Layer_2_copy_13" transform="translate(0 0)">
+      <g id="_36" transform="translate(0 0)">
+        <path id="Path_8091" data-name="Path 8091" d="M8.015,62.692a.824.824,0,0,0-1.166,0L2.906,66.635,1.5,65.224A.825.825,0,0,0,.329,66.39l1.995,1.995a.824.824,0,0,0,1.166,0l4.525-4.527A.827.827,0,0,0,8.015,62.692Z" transform="translate(-0.087 -62.45)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+  <rect id="Rectangle_8694" data-name="Rectangle 8694" width="24" height="24" fill="none"/>
+</svg>

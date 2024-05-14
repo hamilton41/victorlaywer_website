@@ -1,0 +1,44 @@
+.homepage{
+    .section-1{
+        padding-top: 2rem;
+        display: flex;
+        &-left{
+            padding-top: 3.6rem;
+            width: 43%;
+            &-list{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                margin: 1rem 0;
+            }
+            &-p{
+                margin-bottom: 2.4rem;
+                line-height: 18px;
+            }
+        }
+        &-right{
+            width: 57%;
+            position: relative;
+            &-pic{
+                width: 100%;
+                &-img{
+                    width: 100%;
+                }
+            }
+            &-txt{
+                position: absolute;
+                display: flex;
+                align-items: end;
+                gap: 9px;
+                top: 5%;
+                right: 10%;
+                &-h1{
+                    font-weight: 400;
+                }
+                &-p{
+                    padding-bottom: 0.7rem;
+                }
+            }
+        }
+    }
+}
