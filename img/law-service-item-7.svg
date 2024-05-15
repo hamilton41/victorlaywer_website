@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dcc9a7"/>
+      <stop offset="1" stop-color="#ceb27f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_14556" data-name="Group 14556" transform="translate(-800 -1865)">
+    <g id="surface1" transform="translate(807 1872)">
+      <path id="Path_8113" data-name="Path 8113" d="M2.053,406.7H39.288a2.053,2.053,0,0,0,2.053-2.053v-2.19a4.106,4.106,0,0,0-4.107-4.107V395.9a5.9,5.9,0,0,0-5.9-5.9H10a5.9,5.9,0,0,0-5.9,5.9v2.455A4.106,4.106,0,0,0,0,402.457v2.19A2.054,2.054,0,0,0,2.053,406.7Zm0,0" transform="translate(0 -336.612)" fill="url(#linear-gradient)"/>
+      <path id="Path_8114" data-name="Path 8114" d="M104.6,185.468a4.107,4.107,0,0,0,6.56-4.944L98.8,164.125a4.107,4.107,0,1,0-6.56,4.943Zm0,0" transform="translate(-78.903 -140.246)" fill="url(#linear-gradient)"/>
+      <path id="Path_8115" data-name="Path 8115" d="M320.235,22.977a4.107,4.107,0,0,0,6.56-4.943l-12.358-16.4a4.107,4.107,0,1,0-6.559,4.943Zm0,0" transform="translate(-265.017 0)" fill="url(#linear-gradient)"/>
+      <path id="Path_8116" data-name="Path 8116" d="M185.993,83.511a22.27,22.27,0,0,0,6.739-8.117L178.352,56.313a22.929,22.929,0,0,0-16.4,12.357l14.379,19.083A22.274,22.274,0,0,0,185.993,83.511Zm0,0" transform="translate(-139.783 -48.604)" fill="url(#linear-gradient)"/>
+      <path id="Path_8117" data-name="Path 8117" d="M336.711,258.906a24.764,24.764,0,0,1-6.559,4.943l2.677,3.553,6.56-4.943Zm0,0" transform="translate(-284.957 -223.464)" fill="url(#linear-gradient)"/>
+      <path id="Path_8118" data-name="Path 8118" d="M374.325,308.824l-6.56,4.943,12.358,16.4a4.107,4.107,0,1,0,6.56-4.943Zm0,0" transform="translate(-317.421 -266.549)" fill="url(#linear-gradient)"/>
+    </g>
+    <rect id="Rectangle_8712" data-name="Rectangle 8712" width="84" height="84" transform="translate(800 1865)" fill="none"/>
+  </g>
+</svg>

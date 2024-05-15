@@ -265,7 +265,7 @@ q {
 .footer-main-bottom-p {
   color: #FFFFFF;
 }
-.footer-main p {
+.footer-main p, .footer-main h3, .footer-main h4 {
   color: #FFFFFF;
 }
 
@@ -311,6 +311,193 @@ q {
 .homepage .section-1-right-txt-p {
   padding-bottom: 0.7rem;
 }
+.homepage .section-2-left {
+  width: 43%;
+}
+.homepage .section-2-left .podcast-pic {
+  width: 100%;
+}
+.homepage .section-2-left .podcast-pic-img {
+  width: 100%;
+}
+.homepage .section-2-left .podcast-title {
+  width: 100%;
+}
+.homepage .section-2-left .podcast-title-h4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: 700;
+}
+.homepage .section-2-left .podcast-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homepage .section-2-right {
+  width: 57%;
+}
+.homepage .section-3 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 6rem;
+}
+.homepage .section-3-title {
+  padding-top: 3rem;
+  margin-bottom: 6rem;
+  font-weight: 700;
+}
+.homepage .section-3::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, #846E63, #B1A49E);
+  opacity: 0.06;
+}
+.homepage .section-3-content {
+  max-width: 700px;
+  margin: auto;
+}
+.homepage .section-3-content-item {
+  margin-bottom: 2.8rem;
+}
+.homepage .section-3-content-item .item {
+  border: 1px solid #846E63;
+  outline: 1px solid #846E63;
+  border-radius: 2px;
+  position: relative;
+  padding-top: 100%;
+}
+.homepage .section-3-content-item .item-content-p {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  line-height: 18px;
+  opacity: 0;
+  transition: all 0.05s;
+  text-align: center;
+  color: #846E63;
+  font-weight: 400;
+}
+.homepage .section-3-content-item .item-content-pic {
+  position: absolute;
+  width: 50%;
+  height: fit-content;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  opacity: 1;
+  transition: all 0.05s;
+}
+.homepage .section-3-content-item .item-content-pic-small {
+  width: 34%;
+}
+.homepage .section-3-content-item .item-content-pic-img {
+  width: 100%;
+}
+.homepage .section-3-content-item .item-title {
+  position: absolute;
+  border-radius: 2px;
+  width: 87%;
+  padding: 8px 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: -1.2rem;
+}
+.homepage .section-3-content-item .item-title-h4 {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: center;
+}
+.homepage .section-3-content-item .item-title-h4-small {
+  font-size: 14px;
+}
+.homepage .section-3-content-item .item:hover .item-content-p {
+  opacity: 1;
+  transition: all 0.05s;
+}
+.homepage .section-3-content-item .item:hover .item-content-pic {
+  opacity: 0;
+  transition: all 0.05s;
+}
+.homepage .section-4-title {
+  padding-top: 6rem;
+  margin-bottom: 3.8rem;
+  font-weight: 700;
+}
+.homepage .section-4-content {
+  max-width: 1000px;
+}
+.homepage .section-4-content-item {
+  margin: 3.6rem 0;
+}
+.homepage .section-4-content-item .item {
+  display: flex;
+  align-items: center;
+}
+.homepage .section-4-content-item .item-left {
+  width: 40%;
+  padding-right: 3rem;
+}
+.homepage .section-4-content-item .item-left .video {
+  width: 100%;
+  padding-top: 56%;
+  background-color: #F2EEED;
+}
+.homepage .section-4-content-item .item-right {
+  margin-top: -1rem;
+  width: 60%;
+}
+.homepage .section-4-content-item .item-right-title {
+  display: flex;
+  align-items: end;
+  font-weight: 700;
+}
+.homepage .section-4-content-item .item-right-title-num {
+  color: #707070;
+  font-family: "Impact", sans-serif;
+  letter-spacing: 2px;
+  margin-right: 6px;
+}
+.homepage .section-4-content-item .item-right-title-num-brown {
+  color: #DCC9A7;
+}
+.homepage .section-4-content-item .item-right-title-subtitle {
+  margin-right: 15px;
+  margin-bottom: 10px;
+}
+.homepage .section-4-content-item .item-right-title-time {
+  opacity: 0.6;
+  margin-bottom: 10px;
+}
+.homepage .section-4-content-item .item-right-h3 {
+  margin: 6px 0 10px;
+}
+.homepage .section-4-content-item .item-right-p {
+  line-height: 18px;
+  margin-bottom: 3px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.homepage .section-4-content-item .item-right-a {
+  font-size: 12px;
+  color: #67554D;
+}
 
 body {
   font-family: "Noto Serif TC", serif;
@@ -328,10 +515,12 @@ h2 {
 
 h3 {
   font-size: 24px;
+  color: #707070;
 }
 
 h4 {
   font-size: 18px;
+  color: #707070;
 }
 
 p {
