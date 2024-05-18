@@ -116,3 +116,38 @@
         }
     }
 }
+
+.filter{
+    &-main{
+        max-width: 746px;
+        margin: auto;
+        &-item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 1.2px !important;
+            cursor: pointer;
+            &-p{
+                text-align: center;
+                background-color: $filter-bg;
+                display: block;
+                width: 100%;
+                height: 100%;
+                padding: 10px 0;
+                user-select: none;
+            }
+            &.active{
+                .filter{
+                    &-main{
+                        &-item{
+                            &-p{
+                                background-image: linear-gradient(to bottom,$second-color,$second-color-gradient);
+                                color: $pure-white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

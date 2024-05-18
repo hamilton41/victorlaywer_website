@@ -1,0 +1,93 @@
+.knowledge-article{
+    &-main{
+        padding-bottom: 4rem;
+        &-title{
+            padding-top: 6rem;
+            margin-bottom: 2.6rem;
+            font-weight: 700;
+        }
+        &-filter{
+            width: 98%;
+            margin: auto;
+            margin-bottom: 6.6rem;
+        }
+        &-content{
+            max-width: 1000px;
+            &-item{
+                margin: 3.6rem 0;
+                .item{
+                    display: flex;
+                    align-items: center;
+                    &-left{
+                        width: 40%;
+                        padding-right: 3rem;
+                        .video{
+                            width: 100%;
+                            padding-top: 56%;
+                            background-color: $grey;
+                        }
+                    }
+                    &-right{
+                        margin-top: -1rem;
+                        width: 60%;
+                        &-title{
+                            display: flex;
+                            align-items: end;
+                            font-weight:700;
+                            &-num{
+                                color: $white;
+                                font-family: 'Impact', sans-serif;
+                                letter-spacing: 2px;
+                                margin-right: 6px;
+                                &-brown{
+                                    color: $second-color;
+                                }
+                            }
+                            &-subtitle{
+                                margin-right: 15px;
+                                margin-bottom: 10px;
+                            }
+                            &-time{
+                                opacity: 0.6;
+                                margin-bottom: 10px;
+                            }
+                        }
+                        &-h3{
+                            margin: 6px 0 10px;
+                        }
+                        &-p{
+                            line-height: 18px;
+                            margin-bottom: 3px;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 3;
+                            -webkit-box-orient: vertical;
+                        }
+                        &-a{
+                            font-size: $small;
+                            color: $main-color-a;
+                        }
+                    }
+                }
+            }
+        }
+
+        &-more{
+            margin: auto;
+            width: fit-content;
+            &-a{
+                font-size: $small;
+                text-align: center;
+            }
+            .main-link-btn{
+                padding: 10px 30px 10px 22px;
+                &::after{
+                    content: url('../img/arrow-down.svg');
+                    top: 5px;
+                    right: 19px;
+                }
+            }
+        }
+    }
+}
