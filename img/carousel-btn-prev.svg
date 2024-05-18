@@ -1,0 +1,8 @@
+<svg id="Component_18_3" data-name="Component 18 – 3" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="Group_14481" data-name="Group 14481" transform="translate(-139 -1568)">
+    <path id="Path_8155" data-name="Path 8155" d="M12,2A10,10,0,1,1,2,12,10,10,0,0,1,12,2ZM24,12A12,12,0,1,0,12,24,12,12,0,0,0,24,12Z" transform="translate(145 1574)" fill="#625148" fill-rule="evenodd"/>
+    <path id="Path_8156" data-name="Path 8156" d="M15.781,7.375a1,1,0,0,0-1.406-.156l-5,4a1,1,0,0,0,0,1.562l5,4a1,1,0,0,0,1.249-1.562L11.6,12l4.024-3.219a1,1,0,0,0,.156-1.406Z" transform="translate(144 1574)" fill="#625148" fill-rule="evenodd"/>
+  </g>
+  <path id="Path_8157" data-name="Path 8157" d="M24,0H0V24H24Z" transform="translate(6 6)" fill="none"/>
+  <rect id="Rectangle_8704" data-name="Rectangle 8704" width="36" height="36" rx="4" fill="none"/>
+</svg>
