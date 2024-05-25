@@ -18,7 +18,9 @@
         }
 
         &-right{
-
+            .main-btn{
+                font-size: $small;
+            }
         }
     }
 }
