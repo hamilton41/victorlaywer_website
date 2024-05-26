@@ -1694,6 +1694,7 @@ body.scrolled .header {
 .about .section-2-right-title {
   position: relative;
   margin-bottom: 2.7rem;
+  width: fit-content;
 }
 .about .section-2-right-title-dot-top {
   position: absolute;
@@ -1706,7 +1707,7 @@ body.scrolled .header {
 .about .section-2-right-title-dot-bottom {
   position: absolute;
   bottom: -17px;
-  right: 20px;
+  left: calc(100% + 12px);
   width: 37px;
 }
 .about .section-2-right-title-dot-bottom-img {
@@ -1875,6 +1876,103 @@ body.scrolled .header {
   padding: 6rem 0 5rem;
 }
 
+@media (max-width: 1200px) {
+  .about-header {
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.18);
+    background-color: #FFFFFF;
+    position: relative;
+  }
+  .about .section-1 {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .about .section-1 {
+    flex-direction: column-reverse;
+  }
+  .about .section-1-left {
+    width: 100%;
+  }
+  .about .section-1-right {
+    width: 100%;
+    position: relative;
+  }
+  .about .section-1-right::after {
+    content: "";
+    background: linear-gradient(to bottom, rgb(164, 167, 172), rgb(167, 169, 174), rgb(168, 171, 178), rgb(166, 169, 176));
+    position: absolute;
+    left: 99%;
+    top: 0;
+    width: 50vw;
+    height: calc(100% - 1.5px);
+  }
+  .about .section-1-container {
+    overflow: hidden;
+  }
+  .about .section-1-container::after {
+    display: none;
+  }
+  .about .section-2-left {
+    width: 46%;
+  }
+  .about .section-2-right {
+    width: 48%;
+  }
+}
+@media (max-width: 768px) {
+  .about .section-2 {
+    flex-direction: column;
+  }
+  .about .section-2-left {
+    width: 100%;
+  }
+  .about .section-2-right {
+    margin: 2rem 0;
+    width: fit-content;
+  }
+  .about .section-3-main {
+    flex-direction: column;
+  }
+  .about .section-3-main-left {
+    width: 100%;
+  }
+  .about .section-3-main-right {
+    width: 100%;
+  }
+  .about .section-3-main-right-pic {
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .about {
+    overflow: hidden;
+  }
+  .about .section-1-left {
+    padding-left: 12px;
+  }
+  .about .section-1-left-h2 {
+    left: 23px;
+    font-size: 32px;
+  }
+  .about .section-2-right-title {
+    left: 12px;
+  }
+  .about .section-2-right-title-h2 {
+    font-size: 32px;
+  }
+  .about .section-2-right-btn-left {
+    width: 160px;
+  }
+  .about .section-2-right-btn-right {
+    width: 160px;
+  }
+  .about .section-4-main::after {
+    bottom: -43px;
+    left: -4px;
+    width: 206px;
+    height: 126px;
+  }
+}
 body {
   font-family: "Noto Serif TC", serif;
 }
