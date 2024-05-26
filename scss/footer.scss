@@ -101,3 +101,57 @@
         }
     }
 }
+
+@media(max-width: 992px){
+    .footer{
+        &-main{
+            padding-top: 3rem;
+            &-content{
+                flex-direction: column;
+                &-left{
+                    width: 55%;
+                    margin-bottom: 1.8rem;
+                    &-icons{
+                        &-item{
+                            margin-bottom: 12px;
+                        }
+                    }
+                }
+                &-right{
+                    width: 55%;
+                }
+                &-profile{
+                    width: 45%;
+                    position: absolute;
+                    top: 6rem;
+                    right: 0;
+                }
+            }
+        }
+        &-btn-to-top{
+            bottom: 2rem;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .footer{
+        &-main{
+            &-content{
+                flex-direction: column;
+                &-left{
+                    width: 100%;
+                }
+                &-right{
+                    width: 100%;
+                }
+                &-profile{
+                    width: 100%;
+                    position: relative;
+                    top: 0;
+                    margin-top: 2rem;
+                }
+            }
+        }
+    }
+}
