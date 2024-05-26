@@ -105,3 +105,34 @@
         }
     }
 }
+
+@media(max-width:768px){
+    .success-case{
+        padding-top: 82px;
+        &-main{
+            &-content{
+                &-item{
+                    .item{
+                        flex-direction: column;
+                        gap: 2rem;
+                        width: 100%;
+                        max-width: 600px;
+                        margin: auto;
+                        &-left{
+                            padding-right: 0;
+                            width: 100%;
+                        }
+                        &-right{
+                            width: 100%;
+                        }
+                    }
+                    &:nth-child(even){
+                        .item{
+                            flex-direction: column;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

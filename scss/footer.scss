@@ -18,7 +18,15 @@
                 &-icons{
                     margin-top: 1.8rem;
                     &-item{
+                        display: inline-block;
                         margin-right: 12px;
+                        width: 36px;
+                        &-img{
+                            width: 100%;
+                        }
+                        &:first-child{
+                            width: 84px;
+                        }
                     }
                 }
                 &-h4{
