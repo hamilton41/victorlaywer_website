@@ -248,9 +248,12 @@ q {
 }
 .header-btn-open {
   display: none;
+  position: relative;
+  z-index: 5;
 }
 .header-btn-close {
   display: none;
+  position: relative;
 }
 .header-container {
   width: 100%;
@@ -285,9 +288,6 @@ body.scrolled .header {
 }
 
 @media (max-width: 768px) {
-  body {
-    padding-top: 82px;
-  }
   .header {
     position: fixed;
     top: 0;
@@ -319,6 +319,7 @@ body.scrolled .header {
     width: 70%;
     position: absolute;
     height: 100vh;
+    z-index: 100;
     top: 0;
     left: 0;
     box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.18);
@@ -974,6 +975,25 @@ body.scrolled .header {
   right: 19px;
 }
 
+@media (max-width: 768px) {
+  .knowledge-article {
+    padding-top: 82px;
+  }
+  .knowledge-article-main-content-item .item {
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+  }
+  .knowledge-article-main-content-item .item-left {
+    padding-right: 0;
+    width: 100%;
+  }
+  .knowledge-article-main-content-item .item-right {
+    width: 100%;
+  }
+}
 .success-case-main {
   padding-bottom: 4rem;
 }
@@ -1322,6 +1342,20 @@ body.scrolled .header {
   margin-right: 1.6rem;
 }
 
+@media (max-width: 768px) {
+  .service-process .section-2 {
+    flex-direction: column;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .service-process .section-2-left {
+    width: 100%;
+  }
+  .service-process .section-2-right {
+    padding-left: 12px;
+    width: 100%;
+  }
+}
 .article-page {
   padding-bottom: 8rem;
 }
@@ -1498,6 +1532,34 @@ body.scrolled .header {
   margin-right: 1.6rem;
 }
 
+@media (max-width: 992px) {
+  .article-page-main-left {
+    width: calc(55% - 0.8rem);
+  }
+  .article-page-main-right {
+    width: calc(45% - 0.8rem);
+  }
+  .article-page .container {
+    max-width: 830px;
+  }
+}
+@media (max-width: 768px) {
+  .article-page-main {
+    flex-direction: column;
+  }
+  .article-page-main-left {
+    width: 100%;
+  }
+  .article-page-main-right {
+    width: 100%;
+  }
+  .article-page-top {
+    margin-top: 0;
+  }
+  .article-page .container {
+    max-width: 830px;
+  }
+}
 .about-header {
   position: relative;
   z-index: 10;

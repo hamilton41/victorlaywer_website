@@ -174,3 +174,39 @@
         }
     }
 }
+
+@media(max-width: 992px){
+    .article-page{
+        &-main{
+            &-left{
+                width: calc(55% - 0.8rem);
+            }
+            &-right{
+                width: calc(45% - 0.8rem);
+            }
+        }
+        .container{
+            max-width: 830px;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .article-page{
+        &-main{
+            flex-direction: column;
+            &-left{
+                width: 100%;
+            }
+            &-right{
+                width: 100%;
+            }
+        }
+        &-top{
+            margin-top: 0;
+        }
+        .container{
+            max-width: 830px;
+        }
+    }
+}

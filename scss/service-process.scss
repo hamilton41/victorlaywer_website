@@ -268,3 +268,21 @@
         }
     }
 }
+
+
+@media(max-width: 768px){
+    .service-process{
+        .section-2{
+            flex-direction: column;
+            padding-left: 12px;
+            padding-right: 12px;
+            &-left{
+                width: 100%;
+            }
+            &-right{
+                padding-left: 12px;
+                width: 100%;
+            }
+        }
+    }
+}
