@@ -1,4 +1,115 @@
 .about{
+    &-header{
+        position: relative;
+        z-index: 10;
+    }
+    .section-1{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 4.6rem;
+        margin-top: -82px;
+        &-left{
+            width: 52%;
+            padding-top: 8rem;
+            &-h4{
+                font-weight: 700;
+                margin-bottom: 0.8rem;
+            }
+            &-h2{
+                position: relative;
+                width: fit-content;
+                color: $white;
+                font-weight: 800;
+                margin-bottom: 2.4rem;
+                &-dot{
+                    &-top{
+                        position: absolute;
+                        left: -36px;
+                        width: 37px;
+                        &-img{
+                            width: 100%;
+                        }
+                    }
+                    &-bottom{
+                        position: absolute;
+                        width: 37px;
+                        bottom: -33px;
+                        right: -45px;
+                        &-img{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            &-container{
+                display: flex;
+                align-items: center;
+                gap: 1.8rem;
+                &-btn{
+                    &-a{
+                        font-size: $small;
+                        font-weight: 800;
+                    }
+                }
+                &-phone{
+                    padding-top: 5.7px;
+                    display: flex;
+                    align-items: center;
+                    &-icon{
+                        width: 24px;
+                        height: 24px;
+                        &-img{
+                            width: 100%;
+                        }
+                    }
+                    &-h4{
+    
+                    }
+                }
+            }
+            &-links{
+                display: flex;
+                align-items: center;
+                margin-top: 2.6rem;
+                &-span{
+                    color: $white;
+                    font-size: $small;
+                    font-weight: 600;
+                    margin-right: 16px;
+                }
+                &-a{
+                    margin: 0 5px;
+                    width: 36px;
+                    &-img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        &-right{
+            width: 42%;
+            &-bg{
+                width: 100%;
+                &-img{
+                    width: 100%;
+                }
+            }
+        }
+        &-container{
+            width: 100%;
+            position: relative;
+            &::after{
+                position: absolute;
+                top: 0;
+                right: 0;
+                content: '';
+                background: linear-gradient(to bottom,rgb(164,167,172),rgb(167,169,174),rgb(168,171,178),rgb(166,169,176));
+                width: 30%;
+                height: 100%;
+                z-index: -1;
+            }
+        }
+    }
     .section-2{
         margin-bottom: 4rem;
         display: flex;
@@ -31,7 +142,6 @@
                     &-top{
                         position: absolute;
                         left: -30px;
-                        width: 37px;
                         width: 37px;
                         &-img{
                             width: 100%;
@@ -183,12 +293,35 @@
             margin-bottom: 2.2rem;
         }
         &-main{
+            position: relative;
             max-width: 880px;
             margin: auto;
             &-item{
+                align-items: center;
+                justify-content: center;
                 &-img{
                     width: 100%;
                 }
+                &-txt{
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    justify-content: center;
+                    &-p{
+                        height: fit-content;
+                    }
+                }
+            }
+            &::after{
+                content: '';
+                background-image: url('../img/about-section-4-item-bg.png');
+                position: absolute;
+                bottom: -13px;
+                left: -26px;
+                width: 143px;
+                height: 83px;
+                background-size: 100%;
+                z-index: -1;
             }
         }
         &-subtitle{
