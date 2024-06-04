@@ -2,7 +2,7 @@
     &-btn{
         background: linear-gradient(to bottom, $main-color-gradient, $main-color 50%);
         color: $pure-white;
-        font-weight: 700;
+        font-weight: $bold;
         padding: 8px 20px;
         border-radius: 7px;
         &:hover{
@@ -31,7 +31,7 @@
     &-link-btn{
         font-size: $small;
         color: $white;
-        font-weight: 600;
+        font-weight: $bold;
         border: 1.4px solid $white;
         padding: 10px 26px 10px 12px;
         display: inline-block;

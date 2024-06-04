@@ -4,7 +4,7 @@
         &-title{
             padding-top: 6rem;
             margin-bottom: 2.6rem;
-            font-weight: 700;
+            font-weight: $bold;
         }
         &-filter{
             width: 98%;
@@ -33,11 +33,10 @@
                         &-title{
                             display: flex;
                             align-items: end;
-                            font-weight:700;
+                            font-weight:$bold;
                             &-num{
                                 color: $white;
                                 font-family: 'Impact', sans-serif;
-                                letter-spacing: 2px;
                                 margin-right: 6px;
                                 &-brown{
                                     color: $second-color;

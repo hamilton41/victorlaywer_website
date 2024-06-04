@@ -30,7 +30,7 @@
             margin: auto;
             color: $white;
             width: 100%;
-            font-weight: 600;
+            font-weight: $bold;
         }
     }
     &-main{
@@ -54,8 +54,7 @@
                 }
             }
             &-content{
-                font-weight: 500;
-                letter-spacing: 1px;
+                font-weight: $semibold;
                 line-height: 20px;
                 margin-bottom: 4rem;
             }
@@ -72,7 +71,7 @@
             width: calc(40% - 0.8rem);
             &-title{
                 margin: 1.8rem 0 1.2rem;
-                font-weight: 700;
+                font-weight: $bold
             }
             &-top-item{
                 display: flex;
@@ -89,7 +88,7 @@
                     padding-left: 12px;
                     &-h3{
                         padding: 12px 0 4px 8px;
-                        font-weight: 700;
+                        font-weight: $bold;
                         color: $main-color;
                     }
                     &-h4{
@@ -98,7 +97,6 @@
                         display: -webkit-box;
                         -webkit-line-clamp: 2;
                         -webkit-box-orient: vertical;
-                        letter-spacing: 1.4px;
                         line-height: 26px;
                     }
                 }
@@ -123,7 +121,6 @@
                     display: -webkit-box;
                     -webkit-line-clamp: 1;
                     -webkit-box-orient: vertical;
-                    letter-spacing: 1.4px;
                     line-height: 26px;
                 }
                 &::after{
@@ -143,7 +140,7 @@
                 &-span{
                     color: $white;
                     font-size: $small;
-                    font-weight: 600;
+                    font-weight: $bold;
                     margin-right: 16px;
                 }
                 &-a{

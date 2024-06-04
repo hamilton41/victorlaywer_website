@@ -13,12 +13,13 @@
 
 body{
     font-family: 'Noto Serif TC', serif;
+    letter-spacing: 1px;
 }
 
 h1{
     font-size: $large;
     color: $white;
-    font-weight: 600;
+    font-weight: $bold;
 }
 
 h2{
@@ -42,7 +43,7 @@ h5{
 p{
     font-size: $small;
     color: $white;
-    font-weight: 600;
+    font-weight: $bold;
 }
 
 a{

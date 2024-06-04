@@ -53,7 +53,7 @@
                 top: 5%;
                 right: 10%;
                 &-h1{
-                    font-weight: 400;
+                    font-weight: $medium;
                 }
                 &-p{
                     padding-bottom: 0.7rem;
@@ -87,7 +87,7 @@
                         white-space: nowrap;
                         overflow: hidden;
                         text-overflow: ellipsis;
-                        font-weight: 700;
+                        font-weight: $bold;
                     }
                 }
                 &-btn-container{
@@ -146,7 +146,7 @@
             padding-top: 2rem;
             width: 57%;
             &-h3{
-                font-weight: 700;
+                font-weight: $bold;
                 margin-bottom: 2rem;
             }
             &-main{
@@ -203,7 +203,7 @@
         &-title{
             padding-top: 3rem;
             margin-bottom: 6rem;
-            font-weight: 700;
+            font-weight: $bold
         }
         &::before{
             position: absolute;
@@ -242,7 +242,7 @@
                             transition: all 0.05s;
                             text-align: center;
                             color: $main-color;
-                            font-weight: 400;
+                            font-weight: $medium;
                         }
                         &-pic{
                             position: absolute;
@@ -303,7 +303,7 @@
         &-title{
             padding-top: 6rem;
             margin-bottom: 3.8rem;
-            font-weight: 700;
+            font-weight: $bold;
         }
         &-content{
             max-width: 1000px;
@@ -327,11 +327,10 @@
                         &-title{
                             display: flex;
                             align-items: end;
-                            font-weight:700;
+                            font-weight:$bold;
                             &-num{
                                 color: $white;
                                 font-family: 'Impact', sans-serif;
-                                letter-spacing: 2px;
                                 margin-right: 6px;
                                 &-brown{
                                     color: $second-color;
@@ -382,7 +381,7 @@
         }
         &-title{
             color: $pure-white;
-            font-weight: 700;
+            font-weight: $bold;
             padding: 1.4rem 0 3.4rem;
         }
         &-owl-carousel{
@@ -421,7 +420,6 @@
                     }
                     &-p{
                         line-height: 18px;
-                        letter-spacing: 0.3px;
                     }
                 }
             }

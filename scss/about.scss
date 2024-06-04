@@ -12,14 +12,14 @@
             width: 52%;
             padding-top: 8rem;
             &-h4{
-                font-weight: 700;
+                font-weight: $bold;
                 margin-bottom: 0.8rem;
             }
             &-h2{
                 position: relative;
                 width: fit-content;
                 color: $white;
-                font-weight: 800;
+                font-weight: $bold;
                 margin-bottom: 2.4rem;
                 &-dot{
                     &-top{
@@ -48,7 +48,7 @@
                 &-btn{
                     &-a{
                         font-size: $small;
-                        font-weight: 800;
+                        font-weight: $bold;
                     }
                 }
                 &-phone{
@@ -71,7 +71,7 @@
                 &-span{
                     color: $white;
                     font-size: $small;
-                    font-weight: 600;
+                    font-weight: $bold;
                     margin-right: 16px;
                 }
                 &-a{
@@ -116,20 +116,19 @@
             width: 52%;
             &-h5{
                 color: $main-color;
-                font-weight: 700;
+                font-weight: $bold;
                 margin-bottom: 0.8rem;
             }
             &-p{
                 margin-top: 2rem;
                 line-height: 24px;
-                letter-spacing: 0.8px;
             }
         }
         &-right{
             padding-top: 1.2rem;
             width: 38%;
             &-h4{
-                font-weight: 600;
+                font-weight: $bold;
                 margin-bottom: 0.6rem;
             }
             &-title{
@@ -157,8 +156,7 @@
                 }
                 &-h2{
                     color: $white;
-                    font-weight: 600;
-                    letter-spacing: 0.7px;
+                    font-weight: $bold;
                     line-height: 49px;
                     width: fit-content;
                 }
@@ -182,14 +180,14 @@
                     background: linear-gradient(to bottom,$second-color,$second-color-gradient);
                     &-h2{
                         font-family: sans-serif;
-                        font-weight: 900;
+                        font-weight: $bold;
                         text-align: center;
                         color: $pure-white;
                     }
                     &-h4{
                         text-align: center;
                         color: $pure-white;
-                        font-weight: 700;
+                        font-weight: $bold;
                     }
                 }
                 &-right{
@@ -201,13 +199,13 @@
                     height: 90px;
                     &-h2{
                         font-family: sans-serif;
-                        font-weight: 900;
+                        font-weight: $bold;
                         text-align: center;
                         color: $white;
                     }
                     &-h4{
                         text-align: center;
-                        font-weight: 700;
+                        font-weight: $bold;
                     }
                 }
             }
@@ -216,7 +214,7 @@
     .section-3{
         padding-bottom: 2.6rem;
         &-title{
-            font-weight: 700;
+            font-weight: $bold;
             text-align: center;
             margin-bottom: 3.4rem;
         }
@@ -231,12 +229,11 @@
                 &-title{
                     border-bottom: 1px solid $white;
                     padding-bottom: 12px;
-                    font-weight: 600;
+                    font-weight: $bold;
                     margin-bottom: 1.7rem;
                 }
                 &-p{
                     line-height: 22px;
-                    letter-spacing: 0.3px;
                 }
                 &-btn{
                     margin: 1.6rem 0 2.6rem;
@@ -265,12 +262,11 @@
                 &-title{
                     border-bottom: 1px solid $white;
                     padding-bottom: 12px;
-                    font-weight: 600;
+                    font-weight: $bold;
                     margin-bottom: 1.7rem;
                 }
                 &-p{
                     line-height: 22px;
-                    letter-spacing: 0.3px;
                     margin-bottom: 5.3rem;
                 }
                 &-pic{
@@ -287,7 +283,7 @@
     .section-4{
         &-title{
             text-align: center;
-            font-weight: 600;
+            font-weight: $bold;
             margin-bottom: 2.2rem;
         }
         &-main{
@@ -324,7 +320,7 @@
         }
         &-subtitle{
             text-align: center;
-            font-weight: 600;
+            font-weight: $bold;
             color: $font-grey;
             padding: 6rem 0 5rem;
         }

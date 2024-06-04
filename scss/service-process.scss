@@ -20,7 +20,7 @@
         &-title{
             padding-top: 3rem;
             margin-bottom: 3rem;
-            font-weight: 700;
+            font-weight: $bold;
         }
         &::before{
             position: absolute;
@@ -59,7 +59,7 @@
                             transition: all 0.05s;
                             text-align: center;
                             color: $main-color;
-                            font-weight: 400;
+                            font-weight: $medium;
                         }
                         &-pic{
                             position: absolute;
@@ -125,7 +125,7 @@
             width: calc(50% - 3rem);
             &-h3{
                 margin-bottom: 3rem;
-                font-weight: 800;
+                font-weight: $bold;
             }
             &-main{
                 font-family: 'Noto Sans TC', sans-serif;
@@ -134,11 +134,11 @@
                     &-h3{
                         margin-bottom: 1.3rem;
                         color: $main-color;
-                        font-weight: 800;
+                        font-weight: $bold;
                     }
                     &-h5{
                         color: $main-color;
-                        font-weight: 500;
+                        font-weight: $semibold;
                     }
                 }
                 &-list{
@@ -154,7 +154,7 @@
                             &-h4{
                                 color: $main-color;
                                 user-select: none;
-                                font-weight: 500;
+                                font-weight: $semibold;
                             }
                             &-btn{
                                 width: 15px;
@@ -171,8 +171,7 @@
                             height: 0;
                             &-p{
                                 font-size: $ss-mid;
-                                font-weight: 540;
-                                letter-spacing: 0.4px;
+                                font-weight: $semibold;
                                 line-height: 20px;
                                 padding-top: 2rem;
                                 padding-bottom: 2.6rem;
@@ -201,7 +200,7 @@
             width: calc(50% - 2rem);
             &-h3{
                 margin-bottom: 3rem;
-                font-weight: 800;
+                font-weight: $bold;
             }
             &-main{
                 font-family: 'Noto Sans TC', sans-serif;
@@ -211,16 +210,15 @@
                     border-left: 2px solid $second-color;
                     &-title{
                         color: $main-color;
-                        font-weight: 600;
+                        font-weight: $bold;
                     }
                     &-h3{
                         color: $main-color;
-                        letter-spacing: 1px;
                         margin: 0.7rem 0 1.8rem;
                     }
                     &-p{
                         color: $main-color;
-                        font-weight: 500;
+                        font-weight: $semibold;
                         font-size: $ss-mid;
                         min-height: 83px;
                         line-height: 22px;
