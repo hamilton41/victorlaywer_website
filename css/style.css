@@ -242,7 +242,7 @@ q {
   color: #FFFFFF;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
   .main-link-btn {
     padding: 14px 31px 14px 17px;
     font-size: 16px;
@@ -373,6 +373,11 @@ q {
   }
   .header-mobile-content-a:hover {
     color: #707070;
+  }
+}
+@media (min-width: 1440px) {
+  .header-container {
+    max-width: 1400px;
   }
 }
 .footer {
@@ -1839,7 +1844,7 @@ q {
   display: flex;
   justify-content: space-between;
   margin-bottom: 4.6rem;
-  margin-top: -82px;
+  margin-top: -88px;
 }
 .about .section-1-left {
   width: 52%;
@@ -1897,7 +1902,7 @@ q {
 .about .section-1-left-links {
   display: flex;
   align-items: center;
-  margin-top: 2.6rem;
+  margin-top: 5.7rem;
 }
 .about .section-1-left-links-span {
   color: #707070;
@@ -2009,7 +2014,7 @@ q {
   background: linear-gradient(to bottom, #DCC9A7, #CEB27F);
 }
 .about .section-2-right-btn-left-h2 {
-  font-family: sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   font-weight: 700;
   text-align: center;
   color: #FFFFFF;
@@ -2028,7 +2033,7 @@ q {
   height: 90px;
 }
 .about .section-2-right-btn-right-h2 {
-  font-family: sans-serif;
+  font-family: "Noto Serif TC", sans-serif;
   font-weight: 700;
   text-align: center;
   color: #707070;
@@ -2143,35 +2148,42 @@ q {
   padding: 6rem 0 5rem;
 }
 
-@media (max-width: 1200px) {
-  .about-header {
-    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.18);
-    background-color: #FFFFFF;
-    position: relative;
+@media (min-width: 1200px) {
+  .about .section-4-main {
+    max-width: 1050px;
   }
+}
+@media (max-width: 1200px) {
   .about .section-1 {
     margin-top: 0px;
   }
+  .about .section-1-left {
+    padding-top: 4rem;
+  }
 }
 @media (max-width: 992px) {
-  .about .section-1 {
-    flex-direction: column-reverse;
-  }
   .about .section-1-left {
-    width: 100%;
+    width: 55%;
+    padding-top: 2rem;
   }
   .about .section-1-right {
-    width: 100%;
+    width: 45%;
+    display: flex;
     position: relative;
+    justify-content: end;
+  }
+  .about .section-1-right-bg {
+    width: 100%;
+    height: fit-content;
   }
   .about .section-1-right::after {
     content: "";
-    background: linear-gradient(to bottom, rgb(164, 167, 172), rgb(167, 169, 174), rgb(168, 171, 178), rgb(166, 169, 176));
+    background: linear-gradient(to bottom, #DCC8A6, #DAC6A2, #D7C198, #D4BC91, #D1B889, #CFB381);
     position: absolute;
     left: 99%;
     top: 0;
     width: 50vw;
-    height: calc(100% - 1.5px);
+    height: calc(91.3% - 0px);
   }
   .about .section-1-container {
     overflow: hidden;
@@ -2187,8 +2199,49 @@ q {
   }
 }
 @media (max-width: 768px) {
+  .about .section-1 {
+    position: relative;
+  }
+  .about .section-1-left {
+    width: 100%;
+  }
+  .about .section-1-left-h2-dot-top {
+    display: none;
+  }
+  .about .section-1-left-h2-dot-bottom {
+    display: none;
+  }
+  .about .section-1-left-container {
+    display: none;
+  }
+  .about .section-1-left-links {
+    position: relative;
+    display: grid;
+    width: fit-content;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+  }
+  .about .section-1-left-links-span {
+    position: absolute;
+    left: 0;
+    bottom: calc(100% + 16px);
+  }
+  .about .section-1-left-links-a:nth-child(2) {
+    grid-area: 1/2/2/4;
+  }
+  .about .section-1-right {
+    position: absolute;
+    width: 43%;
+    max-width: 160px;
+    bottom: -36px;
+    right: 10px;
+  }
+  .about .section-1-right::after {
+    display: none;
+  }
   .about .section-2 {
     flex-direction: column;
+    gap: 2rem;
   }
   .about .section-2-left {
     width: 100%;
@@ -2196,6 +2249,12 @@ q {
   .about .section-2-right {
     margin: 2rem 0;
     width: fit-content;
+  }
+  .about .section-2-right-title-dot-top {
+    display: none;
+  }
+  .about .section-2-right-title-dot-bottom {
+    display: none;
   }
   .about .section-3-main {
     flex-direction: column;
@@ -2218,11 +2277,7 @@ q {
     padding-left: 12px;
   }
   .about .section-1-left-h2 {
-    left: 23px;
     font-size: 32px;
-  }
-  .about .section-2-right-title {
-    left: 12px;
   }
   .about .section-2-right-title-h2 {
     font-size: 32px;
