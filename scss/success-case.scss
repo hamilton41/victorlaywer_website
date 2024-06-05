@@ -105,12 +105,26 @@
     }
 }
 
-@media(max-width:768px){
+@media(min-width:1440px){
     .success-case{
-        padding-top: 82px;
         &-main{
             &-content{
+                max-width: 1200px;
+            }
+        }
+    }
+}
+
+@media(max-width:768px){
+    .success-case{
+        &-main{
+            &-title{
+                padding-top: 3rem;
+            }
+            &-content{
                 &-item{
+                    padding-top: 3.4rem;
+                    position: relative;
                     .item{
                         flex-direction: column;
                         gap: 2rem;
@@ -123,6 +137,11 @@
                         }
                         &-right{
                             width: 100%;
+                            &-title{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
                         }
                     }
                     &:nth-child(even){

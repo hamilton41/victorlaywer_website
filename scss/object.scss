@@ -127,6 +127,7 @@
             justify-content: center;
             align-items: center;
             padding: 1.2px !important;
+            align-content: center;
             cursor: pointer;
             &-p{
                 text-align: center;
@@ -171,12 +172,31 @@
 }
 
 @media(max-width: 768px){
+    .desktop{
+        display: none;
+    }
     .mobile{
         display: block;
     }
     .owl-theme{
         .owl-nav{
             display: none;
+        }
+    }
+    .filter{
+        &-main{
+            &-item{
+                cursor: pointer;
+                &-p{
+                    font-size: $s-small;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    padding: 4px 0;
+                    min-height: 36px;
+                }
+            }
         }
     }
 }

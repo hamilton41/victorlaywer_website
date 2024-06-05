@@ -90,14 +90,26 @@
         }
     }
 }
-
+@media(min-width:1440px){
+    .knowledge-article{
+        &-main{
+            &-content{
+                max-width: 1200px;
+            }
+        }
+    }
+}
 
 @media(max-width: 768px){
     .knowledge-article{
-        padding-top: 82px;
         &-main{
+            &-title{
+                padding-top: 3rem;
+            }
             &-content{
                 &-item{
+                    padding-top: 3.4rem;
+                    position: relative;
                     .item{
                         flex-direction: column;
                         gap: 2rem;
@@ -110,6 +122,11 @@
                         }
                         &-right{
                             width: 100%;
+                            &-title{
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                            }
                         }
                     }
                 }

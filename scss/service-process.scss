@@ -33,7 +33,7 @@
             opacity: 0.06;
         }
         &-content{
-            max-width: 700px;
+            max-width: 850px;
             margin: auto;
             &-item{
                 margin-bottom: 2.8rem;
@@ -269,7 +269,7 @@
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1440px) {
     .service-process{
         .section-1{
             &-content{
