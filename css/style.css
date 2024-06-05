@@ -242,6 +242,10 @@ q {
   color: #FFFFFF;
 }
 
+.mobile {
+  display: none;
+}
+
 @media (min-width: 1440px) {
   .main-link-btn {
     padding: 14px 31px 14px 17px;
@@ -253,6 +257,9 @@ q {
   }
 }
 @media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
   .owl-theme .owl-nav {
     display: none;
   }
@@ -1644,7 +1651,7 @@ q {
 }
 .article-page-top {
   position: relative;
-  margin-top: -82px;
+  margin-top: -88px;
   width: 100%;
 }
 .article-page-top-img {
@@ -1820,17 +1827,51 @@ q {
   }
 }
 @media (max-width: 768px) {
+  .article-page-top-h2 {
+    display: none;
+  }
   .article-page-main {
     flex-direction: column;
   }
   .article-page-main-left {
     width: 100%;
   }
+  .article-page-main-left-title {
+    align-items: end;
+    gap: 12px;
+    margin-bottom: 1.2rem;
+  }
+  .article-page-main-left-title::before {
+    content: "01";
+    color: #DCC9A7;
+    font-size: 40px;
+    font-family: "Impact", sans-serif;
+    position: relative;
+    top: 6px;
+  }
+  .article-page-main-left-title-span {
+    color: #707070;
+    background: transparent;
+    padding: 0;
+    font-size: 14px;
+  }
+  .article-page-main-left-title-p {
+    display: none;
+  }
+  .article-page-main-left-h2 {
+    color: #707070;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 2rem;
+  }
   .article-page-main-right {
     width: 100%;
   }
   .article-page-top {
-    margin-top: 0;
+    margin-top: 21px;
+  }
+  .article-page-bottom {
+    margin-top: 4rem;
   }
   .article-page .container {
     max-width: 830px;

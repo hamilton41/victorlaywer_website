@@ -153,6 +153,10 @@
     }
 }
 
+.mobile{
+    display: none;
+}
+
 @media(min-width:1440px){
     .main{
         &-link-btn{
@@ -167,6 +171,9 @@
 }
 
 @media(max-width: 768px){
+    .mobile{
+        display: block;
+    }
     .owl-theme{
         .owl-nav{
             display: none;
