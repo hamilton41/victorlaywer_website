@@ -94,7 +94,8 @@
                             font-size: $ss-mid;
                             text-align: center;
                             &-small{
-                                font-size: $l-small;
+                                font-size: $small;
+                                padding: 3px 0;
                             }
                         }
                     }
@@ -268,7 +269,15 @@
     }
 }
 
-
+@media (min-width: 1200px) {
+    .service-process{
+        .section-1{
+            &-content{
+                max-width: 1000px;
+            }
+        }
+    }
+}
 @media(max-width: 768px){
     .service-process{
         .section-2{

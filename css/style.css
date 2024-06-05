@@ -1479,7 +1479,8 @@ q {
   text-align: center;
 }
 .service-process .section-1-content-item .item-title-h4-small {
-  font-size: 14px;
+  font-size: 12px;
+  padding: 3px 0;
 }
 .service-process .section-1-content-item .item:hover .item-content-p {
   opacity: 1;
@@ -1628,6 +1629,11 @@ q {
   margin-right: 1.6rem;
 }
 
+@media (min-width: 1200px) {
+  .service-process .section-1-content {
+    max-width: 1000px;
+  }
+}
 @media (max-width: 768px) {
   .service-process .section-2 {
     flex-direction: column;
