@@ -637,3 +637,18 @@
         }
     }
 }
+
+@media(min-width: 600px){
+    .homepage{
+        .section-1{
+            &-right{
+                &-txt{
+                    left: 43%;
+                    &-h1{
+                        font-size: $l-mid;
+                    }
+                }
+            }
+        }
+    }
+}

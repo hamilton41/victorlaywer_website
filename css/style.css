@@ -1131,6 +1131,14 @@ q {
     width: 100%;
   }
 }
+@media (min-width: 600px) {
+  .homepage .section-1-right-txt {
+    left: 43%;
+  }
+  .homepage .section-1-right-txt-h1 {
+    font-size: 36px;
+  }
+}
 .knowledge-article-main {
   padding-bottom: 4rem;
 }
