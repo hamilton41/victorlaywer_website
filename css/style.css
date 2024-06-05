@@ -197,7 +197,7 @@ q {
 .owl-theme .owl-nav .owl-prev {
   height: fit-content;
   position: absolute;
-  left: -0.6rem;
+  left: 0rem;
   top: 0;
   bottom: 0;
   margin: auto !important;
@@ -208,7 +208,7 @@ q {
 .owl-theme .owl-nav .owl-next {
   height: fit-content;
   position: absolute;
-  right: -0.6rem;
+  right: 0rem;
   top: 0;
   bottom: 0;
   margin: auto !important;
@@ -242,6 +242,21 @@ q {
   color: #FFFFFF;
 }
 
+@media (min-width: 1200px) {
+  .main-link-btn {
+    padding: 14px 31px 14px 17px;
+    font-size: 16px;
+  }
+  .main-btn {
+    padding: 18.5px 28px;
+    font-size: 16px !important;
+  }
+}
+@media (max-width: 768px) {
+  .owl-theme .owl-nav {
+    display: none;
+  }
+}
 .header {
   width: 100%;
   padding: 2rem 0;
@@ -494,6 +509,9 @@ q {
   }
 }
 @media (max-width: 768px) {
+  .footer-main {
+    padding-bottom: 1rem;
+  }
   .footer-main-content {
     position: relative;
     flex-direction: column;
@@ -505,6 +523,15 @@ q {
     position: absolute;
     top: calc(100% - 130px);
     left: 0;
+  }
+  .footer-main-content-left-icons-item {
+    margin-right: 5px;
+  }
+  .footer-main-content-left-p {
+    font-size: 12px;
+  }
+  .footer-main-content-left-p .main-tag {
+    margin-left: 1px;
   }
   .footer-main-content-right {
     width: 100%;
@@ -520,6 +547,17 @@ q {
     left: 59px;
     max-width: 310px;
     width: 80%;
+  }
+  .footer-main-bottom {
+    bottom: unset;
+    position: relative;
+  }
+  .footer-main-bottom-p {
+    font-size: 12px;
+    letter-spacing: 0;
+  }
+  .footer-btn-to-top {
+    display: none;
   }
 }
 .homepage .section-1-2-bg {
@@ -538,7 +576,7 @@ q {
   transform: translateY(30%);
 }
 .homepage-header {
-  margin-bottom: -82px;
+  margin-bottom: -88px;
   position: relative;
   z-index: 10;
 }
@@ -580,9 +618,10 @@ q {
 }
 .homepage .section-1-right-txt-h1 {
   font-weight: 400;
+  font-family: "ChenYuluoyan-Thin", sans-serif;
 }
 .homepage .section-1-right-txt-p {
-  padding-bottom: 0.7rem;
+  padding-bottom: 1.3rem;
 }
 .homepage .section-2 {
   position: relative;
@@ -752,7 +791,7 @@ q {
   opacity: 0.06;
 }
 .homepage .section-3-content {
-  max-width: 700px;
+  max-width: 900px;
   margin: auto;
 }
 .homepage .section-3-content-item {
@@ -781,6 +820,11 @@ q {
   text-align: center;
   color: #846E63;
   font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12px;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .homepage .section-3-content-item .item-content-pic {
   position: absolute;
@@ -816,7 +860,8 @@ q {
   text-align: center;
 }
 .homepage .section-3-content-item .item-title-h4-small {
-  font-size: 14px;
+  font-size: 12px;
+  padding: 3px 0;
 }
 .homepage .section-3-content-item .item:hover .item-content-p {
   opacity: 1;
@@ -964,6 +1009,20 @@ q {
     transform: translateX(-100%);
   }
 }
+@media (min-width: 1200px) {
+  .homepage .section-2 .main-btn {
+    padding: 18.5px 28px;
+  }
+  .homepage .section-3-content {
+    max-width: 1000px;
+  }
+  .homepage .section-4-content {
+    max-width: 1200px;
+  }
+  .homepage .section-5-owl-carousel .homepage-owl-carousel {
+    max-width: 1300px;
+  }
+}
 @media (max-width: 1200px) {
   .homepage .section-1-left {
     padding-top: 2.4rem;
@@ -980,19 +1039,54 @@ q {
   }
 }
 @media (max-width: 992px) {
+  .homepage .section-1-2-bg {
+    overflow: hidden;
+  }
   .homepage .section-1 {
-    flex-direction: column-reverse;
     margin-bottom: 0.6rem;
   }
   .homepage .section-1-left {
-    width: 100%;
+    width: 60%;
+  }
+  .homepage .section-1-left-h1 {
+    font-size: 36px;
+  }
+  .homepage .section-1-left-p {
+    display: none;
+  }
+  .homepage .section-1-left-list {
+    flex-direction: column;
+    align-items: start;
+    gap: 4px;
+  }
+  .homepage .section-1-left-list-p {
+    display: none;
+  }
+  .homepage .section-1-left-list .main-list {
+    display: flex;
   }
   .homepage .section-1-right {
-    width: 100%;
+    width: 90%;
+    position: absolute;
+    left: 42%;
+    top: 152px;
+    max-width: 400px;
+  }
+  .homepage .section-1-right-txt {
+    left: 37%;
+    right: unset;
+    gap: 2px;
+  }
+  .homepage .section-1-right-txt-h1 {
+    font-size: 24px;
+    margin-left: -4px;
+  }
+  .homepage .section-1-right-txt-p {
+    padding-bottom: 7px;
+    font-size: 10px;
   }
   .homepage .section-2-bg {
-    bottom: -30px !important;
-    max-width: 200px !important;
+    display: none;
   }
   .homepage .section-4-content-item .item {
     gap: 1.2rem;
@@ -1002,15 +1096,6 @@ q {
   }
 }
 @media (max-width: 768px) {
-  .homepage .section-1-left-h1 {
-    font-size: 48px;
-  }
-  .homepage .section-1-right-txt-h1 {
-    font-size: 36px;
-  }
-  .homepage .section-1-right-txt-p {
-    padding-bottom: 0.5rem;
-  }
   .homepage .section-2 {
     flex-direction: column;
     padding-bottom: 12rem;
@@ -1020,16 +1105,21 @@ q {
     width: 100%;
     margin: auto;
   }
+  .homepage .section-2-left .podcast-pic {
+    width: 60%;
+    margin: auto;
+  }
   .homepage .section-2-right {
     width: 100%;
   }
-  .homepage .section-2-bg {
-    bottom: -12px !important;
-    width: 100% !important;
-    max-width: 190px !important;
+  .homepage .section-2-right-link {
+    gap: 0.8rem;
   }
-  .homepage .section-2-bg-img {
-    transform: translateY(0) !important;
+  .homepage .section-2-right-link .main-link-btn {
+    padding: 5px 26px 5px 6px;
+  }
+  .homepage .section-2-right-link .main-btn {
+    padding: 11.5px 18px;
   }
   .homepage .section-4-content-item .item {
     flex-direction: column;
@@ -2142,6 +2232,13 @@ q {
     height: 126px;
   }
 }
+@font-face {
+  font-family: "ChenYuluoyan-Thin";
+  font-style: cursive;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../font/ChenYuluoyan-Thin.ttf") format("woff2");
+}
 body {
   font-family: "Noto Serif TC", serif;
   letter-spacing: 1px;
@@ -2184,6 +2281,53 @@ a {
 }
 a:hover {
   color: #201512;
+}
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 28px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  h5 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+  a {
+    font-size: 22px;
+  }
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 62px;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 14px;
+  }
+  a {
+    font-size: 20px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

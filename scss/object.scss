@@ -96,7 +96,7 @@
         .owl-prev{
             height: fit-content;
             position: absolute;
-            left: -0.6rem;
+            left: 0rem;
             top: 0;
             bottom: 0;
             margin: auto !important;
@@ -107,7 +107,7 @@
         .owl-next{
             height: fit-content;
             position: absolute;
-            right: -0.6rem;
+            right: 0rem;
             top: 0;
             bottom: 0;
             margin: auto !important;
@@ -149,6 +149,27 @@
                     }
                 }
             }
+        }
+    }
+}
+
+@media(min-width:1200px){
+    .main{
+        &-link-btn{
+            padding: 14px 31px 14px 17px;
+            font-size: $ss-mid;
+        }
+        &-btn{
+            padding: 18.5px 28px;
+            font-size: $ss-mid !important;
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .owl-theme{
+        .owl-nav{
+            display: none;
         }
     }
 }

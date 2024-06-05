@@ -11,6 +11,14 @@
 @import './article-page.scss';
 @import './about.scss';
 
+@font-face {
+    font-family: 'ChenYuluoyan-Thin';
+    font-style: cursive;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../font/ChenYuluoyan-Thin.ttf') format('woff2');
+}
+
 body{
     font-family: 'Noto Serif TC', serif;
     letter-spacing: 1px;
@@ -52,5 +60,67 @@ a{
     color: $font-black;
     &:hover{
         color: $font-black;
+    }
+}
+
+
+
+@media(min-width:1440px){
+    h1{
+        font-size: calc($large + 4px);
+    }
+    
+    h2{
+        font-size: calc($l-mid + 4px);
+    }
+    
+    h3{
+        font-size: calc($mid + 4px);
+    }
+    
+    h4{
+        font-size: calc($s-mid + 4px);
+    }
+    
+    h5{
+        font-size: calc($ss-mid + 4px);
+    }
+    
+    p{
+        font-size: calc($small + 4px);
+    }
+    
+    a{
+        font-size: calc($s-mid + 4px);
+    }
+}
+
+@media(max-width:768px){
+    h1{
+        font-size: calc($large + 2px);
+    }
+    
+    h2{
+        font-size: calc($l-mid + 2px);
+    }
+    
+    h3{
+        font-size: calc($mid + 2px);
+    }
+    
+    h4{
+        font-size: calc($s-mid + 2px);
+    }
+    
+    h5{
+        font-size: calc($ss-mid + 2px);
+    }
+    
+    p{
+        font-size: calc($small + 2px);
+    }
+    
+    a{
+        font-size: calc($s-mid + 2px);
     }
 }

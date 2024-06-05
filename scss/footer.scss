@@ -146,6 +146,7 @@
 @media(max-width: 768px){
     .footer{
         &-main{
+            padding-bottom: 1rem;
             &-content{
                 position: relative;
                 flex-direction: column;
@@ -155,6 +156,15 @@
                         position: absolute;
                         top: calc(100% - 130px);
                         left: 0;
+                        &-item{
+                            margin-right: 5px;
+                        }
+                    }
+                    &-p{
+                        font-size: $small;
+                        .main-tag{
+                            margin-left: 1px;
+                        }
                     }
                 }
                 &-right{
@@ -173,6 +183,17 @@
                     }
                 }
             }
+            &-bottom{
+                bottom: unset;
+                position: relative;
+                &-p{
+                    font-size: $small;
+                    letter-spacing: 0;
+                }
+            }
+        }
+        &-btn-to-top{
+            display: none;
         }
     }
 }
