@@ -685,8 +685,8 @@ q {
   content: "...";
   position: absolute;
   color: #707070;
-  right: 16.5px;
-  top: -3px;
+  right: 10.5px;
+  top: -1px;
   bottom: 0;
   margin: auto;
 }
@@ -1126,7 +1126,7 @@ q {
 @media (max-width: 768px) {
   .homepage .section-2 {
     flex-direction: column;
-    padding-bottom: 12rem;
+    padding-bottom: 6rem;
   }
   .homepage .section-2-left {
     padding-right: 0;
@@ -1136,6 +1136,7 @@ q {
   .homepage .section-2-left .podcast-pic {
     width: 60%;
     margin: auto;
+    padding-left: 6px;
   }
   .homepage .section-2-right {
     width: 100%;
@@ -1497,6 +1498,11 @@ q {
   text-align: center;
   color: #846E63;
   font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 12px;
+  font-family: "Noto Sans TC", sans-serif;
 }
 .service-process .section-1-content-item .item-content-pic {
   position: absolute;

@@ -60,6 +60,11 @@
                             text-align: center;
                             color: $main-color;
                             font-weight: $medium;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            padding-bottom: 12px;
+                            font-family: "Noto Sans TC", sans-serif;
                         }
                         &-pic{
                             position: absolute;
