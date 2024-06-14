@@ -101,19 +101,28 @@
                                 </h4>
                             </div>
                         </div>
+                        <audio controls autoplay id="homepage-audio">
+                            <source src="./audio/victor_laywer_testing.mp3" type="audio/mpeg">
+                        </audio>
                         <div class="podcast-btn-container">
                             <div class="podcast-btn-container-back">
                                 <img src="./img/podcast-play-btn-back.svg" alt="" class="podcast-btn-container-img">
                             </div>
                             <div class="podcast-btn-container-play">
-                                <img src="./img/podcast-play-btn-play.svg" alt="" class="podcast-btn-container-img">
+                                <i class="fa-solid fa-pause podcast-btn-container-play-start"></i>
+                                <!-- <i class="fa-solid fa-play podcast-btn-container-play-start"></i> -->
+                                <img src="./img/podcast-play-btn-play.svg" alt="" class="podcast-btn-container-img podcast-btn-container-play-pause">
                             </div>
                             <div class="podcast-btn-container-next">
                                 <img src="./img/podcast-play-btn-next.svg" alt="" class="podcast-btn-container-img">
                             </div>
                         </div>
                         <div class="podcast-progress-bar">
-                            <div class="podcast-progress-bar-line"></div>
+                            <div class="podcast-progress-bar-line">
+                                <input type="range"  min="0" max="100" value="0" name="" id="" class="podcast-progress-bar-line-range">
+                                <div class="podcast-progress-bar-line-dot"></div>
+                                <div class="podcast-progress-bar-line-timeline"></div>
+                            </div>
                             <p class="podcast-progress-bar-p">
                                 3:00
                             </p>
@@ -631,5 +640,6 @@
     
     <script src="./js/object.js"></script>
     <script src="./js/homepage.js"></script>
+    <script src="./js/homepage-audio.js"></script>
 </body>
 </html>
